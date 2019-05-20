@@ -1,0 +1,78 @@
+.mais_info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  background: #2bbfd9;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 22px;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+  line-height: 19px;
+  border-radius: 8px;
+}
+
+.mais_info:hover {
+  background: #e87824;
+  color: #FFF;
+}
+
+.as_tecnologias {
+  padding-top: 28px;
+}
+
+.as_tecnologias img {
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+.as_tecnologias h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 21px;
+  line-height: 23px;
+  margin-bottom: 19px;
+  margin-top: 29px;
+  text-align: center;
+}
+
+.as_tecnologias p {
+  font-size: 13px;
+  color: #666666;
+  line-height: 21px;
+  text-align: center;
+}
+
+.as_tecnologias .dentro_tecno {
+  padding: 21px;
+  padding-bottom: 27px;
+  box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.16);
+}
+
+.as_tecnologias .dentro_tecno .saiba_mais {
+  margin-top: 22px;
+  font-family: 'Raleway', sans-serif;
+  height: 38px;
+  background: #e87824;
+  font-size: 13px;
+  width: 147px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.as_tecnologias .dentro_tecno .saiba_mais:hover {
+  background: #062639;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.as_tecnologias .dentro_tecno .setinha {
+  margin-left: 12px;
+}

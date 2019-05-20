@@ -1,0 +1,221 @@
+.titulo_pagina {
+  background-color: #295d7c;
+  background-image: url(../images/duvidas/duvidas_bg.png);
+}
+
+.mais_info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  background: #2bbfd9;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 7px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  line-height: 19px;
+  border-radius: 8px;
+}
+
+.mais_info:hover {
+  background: #e87824;
+  color: #FFF;
+}
+
+.panel-title {
+  height: 47px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #999999;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #666666;
+  padding-left: 17px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.panel-title a {
+  color: #666666;
+}
+
+.panel-body {
+  border: 1px solid #999999;
+  color: #666666;
+  border-radius: 8px;
+  padding-left: 23px;
+  padding-top: 34px;
+  padding-bottom: 20px;
+  margin-bottom: 17px;
+  padding-right: 38px;
+}
+
+.panel-body .ball_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+  background: #a5a5a5;
+  margin-right: 14px;
+}
+
+.panel-body .titulo_depo {
+  margin-bottom: 18px;
+}
+
+.panel-body .nome {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #062639;
+  font-weight: 600;
+}
+
+.panel-body .nome span {
+  display: block;
+  color: #616161;
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: -5px;
+}
+
+.panel-body p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #666666;
+}
+
+.icone_chevron {
+  width: 47px;
+  height: 47px;
+  background: #e87824;
+  margin-left: 15px;
+  border-radius: 8px;
+  position: relative;
+  transition: .2s;
+}
+
+a.accordion-toggle[aria-expanded="true"] .up {
+  background: url(../images/assets/sprite.png);
+  width: 16px;
+  height: 3px;
+  position: absolute;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  background-position: -122px -125px;
+  left: 50%;
+}
+
+a.accordion-toggle[aria-expanded="true"] .icone_chevron {
+  background: #062639;
+}
+
+a.accordion-toggle[aria-expanded="false"] .up, a.accordion-toggle .up {
+  background: url(../images/assets/sprite.png);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  background-position: -94px -119px;
+  left: 50%;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 719px;
+    margin: 1.75rem auto;
+  }
+}
+
+.modal-content {
+  padding: 62px 72px;
+}
+
+.modal-content .form_area {
+  flex-wrap: wrap;
+}
+
+.modal-content .modal-body {
+  padding: 0;
+}
+
+.modal-content .modal-header {
+  padding: 0;
+  border: 0;
+}
+
+.modal-content .modal-header h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 38px;
+  line-height: auto;
+  margin-bottom: 12px;
+}
+
+.modal-content input {
+  width: 268px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-size: 13px;
+  padding-left: 26px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #666666;
+  line-height: 49px;
+  background: #fff;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin-bottom: 28px;
+}
+
+.modal-content textarea {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 111px;
+  font-size: 13px;
+  padding-left: 26px;
+  padding-top: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #666666;
+  line-height: 49px;
+  background: #fff;
+  border: 1px solid #999999;
+  border-radius: 0;
+}
+
+.modal-content .form_area button {
+  height: 50px;
+  background: #062639;
+  color: #FFF;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 39px;
+  width: 100%;
+}
+
+.modal-content .form_area button:hover {
+  background: #e87824;
+  color: #FFF;
+}
+
+.modal {
+  background: #ffffff5e;
+}

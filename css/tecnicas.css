@@ -1,0 +1,87 @@
+.titulo_pagina {
+  background-color: #2bbfd9;
+}
+
+.acesse_tambem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  background: #2bbfd9;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 7px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  line-height: 19px;
+  border-radius: 8px;
+}
+
+.acesse_tambem:hover {
+  background: #e87824;
+  color: #FFF;
+}
+
+.conteudo_tratamento .text_tecnicas .effectv2 {
+  position: absolute;
+  z-index: -1;
+  width: 322px;
+  height: 303px;
+  background: url(../images/home/effect.jpg) no-repeat;
+  top: 22px;
+  left: 0;
+}
+
+.conteudo_tratamento .text_tecnicas img {
+  float: left;
+  margin-right: 35px;
+  margin-bottom: 25px;
+}
+
+.conteudo_tratamento .text_tecnicas p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.conteudo_tratamento .text_tecnicas h2 {
+  margin-bottom: 33px;
+}
+
+.conteudo_tratamento .bar_tecnicas {
+  padding-right: 93px;
+}
+
+.conteudo_tratamento .bar_tecnicas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.conteudo_tratamento .bar_tecnicas .active a {
+  background: #2bbfd9;
+}
+
+.conteudo_tratamento .bar_tecnicas a {
+  padding-left: 24px;
+  height: 37px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: #e87824;
+  border-radius: 3px;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 13px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.conteudo_tratamento .bar_tecnicas a:hover {
+  background: #2bbfd9;
+}

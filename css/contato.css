@@ -1,0 +1,144 @@
+.contato_page {
+  padding-top: 73px;
+}
+
+.contato_page .col-lg-4:nth-of-type(2) h2 {
+  color: #f0811c;
+}
+
+.contato_page .col-lg-4:nth-of-type(3) h2 {
+  color: #2bbfd9;
+}
+
+.contato_page h2, .contato_page h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 38px;
+  line-height: 38px;
+  color: #062639;
+  margin-bottom: 15px;
+}
+
+.contato_page p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #666666;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 18px;
+  letter-spacing: 0.02em;
+}
+
+.contato_page p a {
+  color: #666666;
+}
+
+.contato_page .formularios_contato {
+  padding-top: 49px;
+}
+
+.contato_page .formularios_contato input {
+  width: 268px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-size: 13px;
+  padding-left: 26px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #666666;
+  line-height: 49px;
+  background: #fff;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin-bottom: 28px;
+}
+
+.contato_page .formularios_contato textarea {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 111px;
+  font-size: 13px;
+  padding-left: 26px;
+  padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #666666;
+  line-height: 49px;
+  background: #fff;
+  border: 1px solid #999999;
+  border-radius: 0;
+}
+
+.contato_page .formularios_contato button {
+  height: 50px;
+  background: #f0811c;
+  color: #FFF;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 39px;
+  width: 100%;
+}
+
+.contato_page .formularios_contato button:hover {
+  background: #2bbfd9;
+  color: #FFF;
+}
+
+.contato_page .formularios_contato .trabalhe button {
+  background: #2bbfd9;
+}
+
+.contato_page .formularios_contato .trabalhe button:hover {
+  background: #f0811c;
+}
+
+.contato_page .formularios_contato .trabalhe textarea {
+  height: 85px;
+}
+
+.contato_page iframe {
+  margin-top: 50px;
+  margin-bottom: -6px;
+}
+
+.contato_page .anexararquivo input {
+  display: none;
+}
+
+.contato_page .js-fileName {
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #666666;
+  padding-left: 18px;
+  margin-right: 6px;
+}
+
+.contato_page .iconeAnexar {
+  float: right;
+  background-position: -107px -89px;
+  width: 10px;
+  height: 20px;
+  margin-left: 25px;
+}
+
+.contato_page .js-labelFile {
+  padding: 0 10px;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.contato_page .anexararquivo {
+  margin-top: -12px;
+}

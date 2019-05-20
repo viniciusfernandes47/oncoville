@@ -1,0 +1,131 @@
+@mixin bolder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+.contato_page {
+    padding-top: 73px;
+    .col-lg-4 {
+        &:nth-of-type(2) h2 {
+            color: #f0811c;
+        }
+        &:nth-of-type(3) h2 {
+            color: #2bbfd9;
+        }
+    }
+    h2, h3 {
+        @include bolder;
+        font-size: 38px;
+        line-height: 38px;
+        color: #062639;
+        margin-bottom: 15px;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        color: #666666;
+        font-size:16px;
+        line-height: 17px;
+        margin-bottom: 18px;
+        letter-spacing: 0.02em;
+        a {
+            color: #666666;
+        }
+    }
+    .formularios_contato {
+        padding-top: 49px;
+        input {
+            width: 268px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 50px;
+            font-size: 13px;
+            padding-left: 26px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            color: #666666;
+            line-height: 49px;
+            background: #fff;
+            border: 1px solid #999999;
+            border-radius: 0;
+            margin-bottom: 28px;
+        }
+        textarea {
+            width: 100%;
+            position: relative;
+            display: flex;
+            height: 111px;
+            font-size: 13px;
+            padding-left: 26px;
+            padding-top: 10px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            color: #666666;
+            line-height: 49px;
+            background: #fff;
+            border: 1px solid #999999;
+            border-radius: 0;
+        }
+        button {
+            height: 50px;
+            background: #f0811c;
+            color: #FFF;
+            border: none;
+            @include bolder;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            margin-top: 39px;
+            width: 100%;
+            &:hover {
+                background: #2bbfd9;
+                color: #FFF;
+            }
+        }
+        .trabalhe button {
+            background: #2bbfd9;
+            &:hover {
+                background: #f0811c;
+            }
+        }
+        .trabalhe textarea {
+            height: 85px;
+        }
+    }
+    iframe {
+        margin-top: 50px;
+        margin-bottom: -6px;
+    }
+    .anexararquivo input {
+        display: none;
+    }
+    
+    .js-fileName {
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #666666;
+        padding-left: 18px;
+        margin-right: 6px;
+    }
+    
+    .iconeAnexar {
+        float: right;
+        background-position: -107px -89px;
+        width: 10px;
+        height: 20px;
+        margin-left: 25px;
+    }
+    
+    .js-labelFile {
+        padding: 0 10px;
+        margin-bottom: 0;
+        display: flex;
+     }
+     .anexararquivo {
+        margin-top: -12px;
+    }
+}

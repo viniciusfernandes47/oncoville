@@ -1,0 +1,333 @@
+.aonco {
+  padding-top: 40px;
+}
+
+.parte {
+  padding-top: 50px;
+}
+
+.parte .logo_parte {
+  min-height: 91px;
+  margin-bottom: 20px;
+}
+
+.parte h2 {
+  margin-bottom: 25px;
+}
+
+.parte .dentro_parte {
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 60px;
+  padding-bottom: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.16);
+}
+
+.historia {
+  background: #fbfbfb;
+  padding-top: 60px;
+  margin-top: 40px;
+}
+
+.historia .slider_historia {
+  /*
+            .aparecer .linhaHover {
+                opacity: 1;
+            } */
+}
+
+.historia .slider_historia .ano {
+  position: relative;
+}
+
+.historia .slider_historia .slick-track {
+  position: relative;
+}
+
+.historia .slider_historia .linha:after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  width: 229px;
+  height: 121px;
+  background: url(../images/quem_somos/posterior.png) no-repeat;
+}
+
+.historia .slider_historia .linha:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  width: 229px;
+  height: 121px;
+  background: url(../images/quem_somos/anterior.png) no-repeat;
+}
+
+.historia .slider_historia .linha .slick-prev {
+  left: 29px;
+  z-index: 19;
+  opacity: 0;
+}
+
+.historia .slider_historia .linha .slick-next {
+  right: 31px;
+  z-index: 19;
+  opacity: 0;
+}
+
+.historia .slider_historia .ano-y {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  color: #f50;
+  display: flex;
+  position: absolute;
+  top: 59px;
+  left: 50%;
+}
+
+.historia .slider_historia .ano-y span {
+  color: #FFF;
+  top: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  letter-spacing: 0;
+  font-size: 38px;
+  margin-top: 9px;
+}
+
+.historia .slider_historia .slick-active:nth-of-type(4) .linhaHover {
+  margin-left: -160px;
+}
+
+.historia .slider_historia .slick-active:nth-of-type(5) .linhaHover {
+  margin-left: -256px;
+}
+
+.historia .slider_historia .slick-active:nth-of-type(6) .linhaHover {
+  margin-left: -407px;
+}
+
+.historia .slider_historia .slick-active:nth-of-type(1) path:first-of-type {
+  opacity: 0;
+}
+
+.historia .slider_historia .slick-slide:nth-child(n+6):nth-child(-n+15) path:first-of-type {
+  opacity: 0;
+}
+
+.historia .slider_historia .slick-slide:nth-of-type(1) path {
+  fill: #E87824 !important;
+}
+
+.historia .slider_historia .slick-slide:nth-of-type(2) path {
+  fill: #E87824 !important;
+}
+
+.historia .slider_historia .slick-slide:nth-of-type(3) path {
+  fill: #1BA4B2 !important;
+}
+
+.historia .slider_historia .slick-slide:nth-of-type(4) path {
+  fill: #062639 !important;
+}
+
+.historia .slider_historia .slick-slide:nth-of-type(5) path {
+  fill: #1F81B2 !important;
+}
+
+.historia .slider_historia .slick-slide:nth-of-type(6) path {
+  fill: #189B62 !important;
+}
+
+.historia .slider_historia .slick-current g {
+  opacity: 1 !important;
+}
+
+.historia .slider_historia .forcaraparecer {
+  display: block !important;
+}
+
+.historia .slider_historia .linha {
+  position: relative;
+  height: 13rem;
+}
+
+.historia .slider_historia .linha .slick-list.draggable {
+  z-index: 10;
+}
+
+.historia .slider_historia .comecoLinha {
+  position: relative;
+}
+
+.historia .slider_historia .linhaHover {
+  width: 677px;
+  margin-top: 11px;
+  top: 100%;
+  margin-left: -25px;
+  z-index: 20;
+  display: none;
+}
+
+.historia .slider_historia .slick-slide:nth-child(n+7):nth-child(-n+15) .linhaHover {
+  margin-left: -530px;
+}
+
+.historia .slider_historia .conteudoLinha {
+  background: transparent;
+  display: flex;
+}
+
+.historia .slider_historia .anoLinha {
+  font-weight: normal;
+  font-size: 12px;
+  padding-bottom: 7px;
+  color: #707070;
+}
+
+.historia .slider_historia .conteudoLinha h4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--azulDark);
+  padding-bottom: 17px;
+}
+
+.historia .slider_historia .conteudoLinha p {
+  font-size: 12px;
+}
+
+.historia .slider_historia .slick-list {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.historia .slider_historia .slick-slide {
+  opacity: 0;
+  margin-left: -11px;
+}
+
+.historia .slider_historia .slick-active {
+  opacity: 1;
+}
+
+.historia .slider_historia .tempo {
+  background: #f9f7fa;
+}
+
+.historia .slider_historia .imagem_linha_tempo {
+  border-radius: 20px;
+  overflow: hidden;
+  min-width: 269px;
+}
+
+.historia .slider_historia .texto_linha_tempo {
+  background: #FFF;
+  margin-left: 0px;
+  border-radius: 8px;
+  padding-left: 46px;
+  padding-top: 43px;
+  padding-right: 46px;
+  padding-bottom: 25px;
+  font-size: 14px;
+  max-width: 373px;
+  box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.16);
+}
+
+.historia .slider_historia .texto_linha_tempo p {
+  color: #666666;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  max-height: 192px;
+  /* fallback */
+  -webkit-line-clamp: 8;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.historia .missao {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.historia .missao .cada_missao:nth-of-type(2) .dentro_missao {
+  background: #062639;
+}
+
+.historia .missao .cada_missao:nth-of-type(3) .dentro_missao {
+  background: #2bbfd9;
+}
+
+.historia .missao .dentro_missao {
+  padding: 57px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  background: #e87824;
+  box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.16);
+}
+
+.historia .missao .dentro_missao h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 38px;
+  color: #FFF;
+  margin-bottom: 12px;
+}
+
+.historia .missao .dentro_missao p {
+  font-size: 17px;
+  color: #FFF;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.estrutura {
+  padding-top: 35px;
+}
+
+.estrutura h2 {
+  margin-bottom: 28px;
+}
+
+.estrutura img {
+  width: 100%;
+}
+
+.estrutura .alta {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  background: #2bbfd9;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  line-height: 19px;
+  border-radius: 8px;
+}
+
+.estrutura .alta:hover {
+  background: #e87824;
+}

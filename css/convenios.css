@@ -1,0 +1,88 @@
+.osconvenios {
+  padding-top: 33px;
+}
+
+.osconvenios p {
+  padding: 0 145px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 25px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.osconvenios p:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  background: #e87824;
+  width: 50px;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.osconvenios h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.osconvenios .listagem_convenios {
+  flex-wrap: wrap;
+}
+
+.osconvenios .cada_convenio {
+  width: 273px;
+  height: 172px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.16);
+  border-radius: 8px;
+  position: relative;
+}
+
+.osconvenios .cada_convenio .descricao_convenio {
+  display: none;
+  position: absolute;
+  left: 160px;
+  top: 90px;
+  width: 376px;
+  height: 232px;
+  padding-left: 40px;
+  z-index: 10;
+  padding-top: 30px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.16);
+}
+
+.osconvenios .cada_convenio .descricao_convenio h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #e87824;
+  font-size: 29px;
+  letter-spacing: 0;
+  margin-bottom: 28px;
+}
+
+.osconvenios .cada_convenio .descricao_convenio ul {
+  padding: 0;
+  padding-left: 18px;
+}
+
+.osconvenios .cada_convenio .descricao_convenio ul li {
+  font-size: 17px;
+  color: #062639;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+
+.osconvenios .cada_convenio:nth-of-type(4n) .descricao_convenio {
+  left: -102px;
+}
