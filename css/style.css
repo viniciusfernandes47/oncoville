@@ -27,6 +27,10 @@ h2 {
   margin-bottom: 17px;
 }
 
+img {
+  border-radius: 2px;
+}
+
 a, button, i {
   transition: .4s;
 }

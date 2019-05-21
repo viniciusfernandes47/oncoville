@@ -1,0 +1,294 @@
+.listagem_posts .cada_publica {
+  padding-top: 35px;
+}
+
+.listagem_posts .datas a {
+  font-size: 18px;
+  color: #666666;
+  font-family: 'Raleway', sans-serif;
+}
+
+.listagem_posts h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #062639;
+  font-size: 48px;
+  margin-top: 19px;
+  margin-bottom: 18px;
+}
+
+.listagem_posts p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #666666;
+  margin-top: 29px;
+  margin-bottom: 54px;
+}
+
+.listagem_posts .saiba_mais {
+  font-family: 'Raleway', sans-serif;
+  height: 38px;
+  background: #e87824;
+  font-size: 13px;
+  width: 147px;
+}
+
+.listagem_posts .saiba_mais:hover {
+  background: #062639;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.listagem_posts .setinha {
+  margin-left: 12px;
+}
+
+.listagem_posts .footer_post {
+  align-items: center;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.listagem_posts .social_blog {
+  display: flex;
+  align-items: center;
+}
+
+.listagem_posts .social_blog .face {
+  background-position: -11px -153px;
+  width: 12px;
+  height: 24px;
+}
+
+.listagem_posts .social_blog .insta {
+  background-position: -28px -153px;
+  width: 24px;
+  height: 24px;
+}
+
+.listagem_posts .social_blog .whats {
+  background-position: -58px -154px;
+  width: 24px;
+  height: 23px;
+  margin-top: 1px;
+}
+
+.listagem_posts .social_blog .email {
+  background-position: -87px -153px;
+  width: 25px;
+  height: 24px;
+  margin-right: 0;
+}
+
+.listagem_posts .social_blog a {
+  margin-right: 35px;
+}
+
+.listagem_posts .paginacao {
+  justify-content: center;
+  padding: 38px 0;
+}
+
+.listagem_posts .paginacao a {
+  color: #062639;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 6px;
+}
+
+.listagem_posts .paginacao a:hover {
+  color: #e87824;
+}
+
+.listagem_posts .paginacao .anterior {
+  margin-right: 81px;
+}
+
+.listagem_posts .paginacao .proximo {
+  margin-left: 81px;
+}
+
+.sidebar_blog .procurar {
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 99px;
+}
+
+.sidebar_blog .procurar input {
+  border-radius: 25px;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  padding-left: 21px;
+  height: 49px;
+  background: transparent;
+  font-size: 13px;
+  color: #666666;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.sidebar_blog .procurar .lupa_procurar {
+  position: absolute;
+  background-position: -128px -153px;
+  width: 17px;
+  height: 18px;
+  top: 15px;
+  right: 23px;
+}
+
+.sidebar_blog h2 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 21px;
+  text-transform: uppercase;
+  background: #e87824;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-bottom: 13px;
+}
+
+.sidebar_blog ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar_blog ul li:last-child a {
+  border: none;
+}
+
+.sidebar_blog ul a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #666666;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  padding-left: 21px;
+  border-bottom: 1px solid #a2a2a2;
+  width: 100%;
+  display: flex;
+}
+
+.sidebar_blog ul a:hover {
+  background: #a2a2a2;
+}
+
+.sidebar_blog .lidos {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #666666;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 21px;
+  padding-right: 30px;
+  border-bottom: 1px solid #a2a2a2;
+  display: flex;
+  width: 100%;
+}
+
+.sidebar_blog .lidos:hover {
+  background: #a2a2a2;
+}
+
+.sidebar_blog .lidos:last-of-type {
+  border: none;
+}
+
+.sidebar_blog .mais_lidos {
+  padding-top: 38px;
+}
+
+.sidebar_blog .mais_lidos h2 {
+  background: #0f5672;
+}
+
+.sidebar_blog .arquivos {
+  padding-top: 38px;
+}
+
+.sidebar_blog .arquivos h2 {
+  background: #9c9c9a;
+}
+
+/* Blog Interna */
+.comentarios {
+  padding-right: 145px;
+  padding-top: 49px;
+  padding-bottom: 60px;
+}
+
+.comentarios .img {
+  margin-right: 40px;
+}
+
+.comentarios .cada_comentario {
+  margin-top: 29px;
+}
+
+.comentarios a {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #062639;
+  font-weight: 500;
+  margin-bottom: 27px;
+}
+
+.comentarios h5 {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #062639;
+  font-weight: 600;
+  margin-bottom: 23px;
+  margin-top: 0;
+}
+
+.comentarios h6 {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #062639;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.comentarios p {
+  font-size: 14px;
+  line-height: 29px;
+  color: #666666;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.comentarios .responder {
+  font-size: 14px;
+  color: #e87824;
+  margin-bottom: 0;
+}
+
+.ultimos_posts {
+  padding-bottom: 55px;
+}
+
+.ultimos_posts h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  font-size: 26px;
+  color: #062639;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}

@@ -1,0 +1,261 @@
+@mixin bolder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.listagem_posts {
+    .cada_publica {
+        padding-top: 35px;
+    }
+    .datas {
+        a {
+            font-size: 18px;
+            color:#666666;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+    h3 {
+        @include bolder;
+        color: #062639;
+        font-size: 48px;
+        margin-top: 19px;
+        margin-bottom: 18px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+        color: #666666;
+        margin-top: 29px;
+        margin-bottom: 54px;
+    }
+    .saiba_mais {
+        font-family: 'Raleway', sans-serif;
+        height: 38px;
+        background: #e87824;
+        font-size: 13px;
+        width: 147px;
+        &:hover {
+            background:#062639;
+            color: #FFF;
+            text-decoration: none;
+        }
+    }
+    .setinha {
+        margin-left: 12px;
+    }
+    .footer_post {
+        align-items: center;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #a2a2a2;
+    }
+    .social_blog {
+        display: flex;
+        align-items: center;
+        .face {
+        background-position:-11px -153px;
+        width: 12px;
+        height: 24px;
+        }
+        .insta {
+        background-position:-28px -153px;
+        width: 24px;
+        height: 24px;
+        }
+        .whats {
+        background-position:-58px -154px;
+        width: 24px;
+        height: 23px;
+        margin-top: 1px;
+        }
+        .email {
+        background-position:-87px -153px;
+        width: 25px;
+        height: 24px;
+        margin-right: 0;
+        }
+        a {
+            margin-right: 35px;
+        }
+    }
+    .paginacao {
+        justify-content: center;
+        padding: 38px 0;
+        a {
+            color: #062639;
+            font-weight: 700;
+            font-family: 'Raleway', sans-serif;
+            font-size:20px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            margin: 0 6px;
+            &:hover {
+                color: #e87824;
+            }
+        }
+        .anterior {
+            margin-right: 81px;
+        }
+        .proximo {
+            margin-left: 81px;
+        }
+    }
+}
+
+.sidebar_blog {
+    .procurar {
+        margin-top: 50px;
+        position: relative;
+        margin-bottom: 99px;
+        input {
+            border-radius: 25px;
+            width: 100%;
+            border: 1px solid #e1e1e1;
+            padding-left: 21px;
+            height: 49px;
+            background: transparent;
+            font-size: 13px;
+            color:#666666;
+            font-family: 'Raleway', sans-serif;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+        }
+        .lupa_procurar {
+            position: absolute;
+            background-position:-128px -153px;
+            width: 17px;
+            height: 18px;
+            top: 15px;
+        right: 23px;
+        }
+    }
+    h2 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border-radius: 8px;
+        padding-left: 21px;
+        text-transform: uppercase;
+        background: #e87824;
+        color: #FFF;
+        @include bolder;
+        font-size: 16px;
+        letter-spacing: 0;
+        margin-bottom: 13px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li:last-child a{
+            border: none;
+        }
+        a {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #666666;
+            padding-bottom: 9px;
+            padding-top: 9px;
+            padding-left: 21px;
+            border-bottom: 1px solid #a2a2a2;
+            width: 100%;
+            display: flex;
+            &:hover {
+                background: #a2a2a2;
+            }
+        }
+    }
+    .lidos {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #666666;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 21px;
+        padding-right: 30px;
+        border-bottom: 1px solid #a2a2a2;
+        display: flex;
+        width: 100%;
+        &:hover {
+            background: #a2a2a2;
+        }
+        &:last-of-type {
+            border: none;
+        }
+    }
+    .mais_lidos {
+        padding-top: 38px;
+        h2 {
+            background: #0f5672;
+        }
+    }
+    .arquivos {
+        padding-top: 38px;
+        h2 {
+            background: #9c9c9a;
+        }
+    }
+}
+
+/* Blog Interna */
+
+.comentarios {
+    padding-right: 145px;
+    padding-top: 49px;
+    padding-bottom: 60px;
+    .img {
+        margin-right: 40px;
+    }
+    .cada_comentario {
+        margin-top: 29px;
+    }
+    a {
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        color:#062639;
+        font-weight: 500;
+        margin-bottom: 27px;
+    }
+    h5 {
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        color: #062639;
+        font-weight: 600;
+        margin-bottom: 23px;
+        margin-top:0;
+    }
+    h6 {
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        color: #062639;
+        font-weight: 600;
+        margin-bottom: 30px;
+        margin-top:0;
+    }
+    p {
+        font-size: 14px;
+        line-height: 29px;
+        color: #666666;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .responder {
+        font-size: 14px;
+        color: #e87824;
+        margin-bottom: 0;
+    }
+}
+
+.ultimos_posts {
+    padding-bottom: 55px;
+    h4 {
+        @include bolder;
+        font-size: 26px;
+        color: #062639;
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+}
