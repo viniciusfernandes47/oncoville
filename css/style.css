@@ -27,6 +27,10 @@ h2 {
   margin-bottom: 17px;
 }
 
+a, button, i {
+  transition: .4s;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1183px;
@@ -121,6 +125,7 @@ header .pesquisar {
   background-position: -7px -8px;
   width: 44px;
   height: 39px;
+  transition: .2s;
 }
 
 header .pesquisar:hover {
