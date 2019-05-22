@@ -27,7 +27,10 @@
                     <div class="botoes_direita d-flex align-items-center">
                         <h4>CENTRAL DE ATENDIMENTO: 41 3013 8800</h4>
                         <button class="botao duvidas">Tire suas dúvidas</button>
-                        <div class="sprite pesquisar"></div>
+                        <div class="barra_pesquisa search-wrapper">
+                            <input class="search-input" type="text" placeholder="Pesquisar...">
+                            <div class="sprite pesquisar"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,7 +40,32 @@
                         <a class="logo mr-auto" href="#">
                             <img src="images/assets/logo.svg" alt="Oncoville logo">
                         </a>
-                        <div class="" id="navbarNavDropdown">
+                        <nav class="navigation">
+                            <div class="hamburger">
+                                <span class="bars"></span>
+                            </div>
+                            <div class="mobile_menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Quem Somos</a></li>
+                                <li><a href="#">Produtos</a></li>
+                                <li><a href="#">Onde Comprar</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                            <div class="d-flex justify-content-center">
+                                <div class="midias">
+                                    <div class="icon_social d-flex">
+                                        <a href="#" class="sprite insta"></a>
+                                        <a href="#" class="sprite fb"></a>
+                                        <a href="#" class="sprite tw"></a>
+                                        <a href="#" class="sprite pin"></a>
+                                    </div>
+                                </div>
+                            </div>                       
+                            </div>
+                        </nav>
+                        <div class="d-lg-block d-none" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Quem Somos</a>
@@ -70,7 +98,7 @@
         <div class="breadcrumbv2">
             <div class="fundo_laranja"></div>
             <div class="container d-flex">
-                <a href="#" class="mr-auto">Conheça nosso Blog</a>
+                <a href="#" class="mr-auto">Conheça o Blog</a>
                 <div class="links">
                     <a href="#">Home</a> <span>/</span> <a href="#">Blog</a>
                 </div>
@@ -117,17 +145,17 @@
                         </div>
                         <div class="ultimos_posts">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-sm-4">
                                     <img src="images/blog/miniatura_post.jpg" alt="">
                                     <h4>Venha conhecer nossa clínica! </h4>
                                     <a href="#" class="saiba_mais">Saiba Mais <i class="sprite setinha"></i></a>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-sm-4 d-sm-block d-none">
                                     <img src="images/blog/miniatura_post.jpg" alt="">
                                     <h4>Venha conhecer nossa clínica! </h4>
                                     <a href="#" class="saiba_mais">Saiba Mais <i class="sprite setinha"></i></a>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-sm-4 d-sm-block d-none">
                                     <img src="images/blog/miniatura_post.jpg" alt="">
                                     <h4>Venha conhecer nossa clínica! </h4>
                                     <a href="#" class="saiba_mais">Saiba Mais <i class="sprite setinha"></i></a>
@@ -135,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 sidebar_blog">
+                    <div class="col-lg-3 sidebar_blog d-lg-block d-none">
                         <div class="procurar">
                             <input type="text" placeholder="PROCURAR">
                             <i class="sprite lupa_procurar"></i>

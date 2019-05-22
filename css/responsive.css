@@ -1,0 +1,708 @@
+@media (max-width: 480px) {
+  .hamburger {
+    display: block;
+  }
+  .duvidas, .barra_pesquisa {
+    display: none;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .slick-prev {
+    background: url(../images/assets/sprite.png) no-repeat -93px -8px;
+    width: 27px;
+    height: 74px;
+    left: 0;
+    z-index: 999999;
+  }
+  .slick-next {
+    background: url(../images/assets/sprite.png) no-repeat -59px -8px;
+    width: 27px;
+    height: 74px;
+    right: 0;
+  }
+  .slick-next:before, .slick-prev:before {
+    display: none;
+  }
+  header .logo {
+    width: 216px;
+  }
+  header .topo_menor .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  header .blog_button {
+    margin-right: 0;
+  }
+  header .botoes_esquerda {
+    margin-right: 0 !important;
+  }
+  header h4 {
+    margin-right: 0;
+    margin-top: 14px;
+    margin-bottom: 6px;
+  }
+  .effect {
+    width: 348px;
+    height: 328px;
+  }
+  .carousel .right_slide {
+    width: 0;
+  }
+  .carousel .left_slide {
+    width: 100%;
+    background-image: url(../images/home/left_slide_mobile.png) !important;
+  }
+  .carousel h3 {
+    font-size: 53px;
+    line-height: 66px;
+    text-align: center;
+    padding-top: 189px;
+  }
+  .carousel p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0 29px;
+  }
+  .carousel .saiba_mais {
+    margin-top: 28px !important;
+    margin: 0 auto;
+    height: 48px;
+    width: 159px;
+  }
+  .carousel .carousel-indicators {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 12%;
+  }
+  .carousel .padding_slide {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blog .imagem_blog {
+    max-width: 100%;
+    max-height: 210px;
+  }
+  .ogrupo p {
+    padding: 0 0px;
+    padding-bottom: 22px;
+  }
+  .ogrupo .logos {
+    flex-wrap: wrap;
+  }
+  .ogrupo .logos img {
+    margin-right: 0;
+    margin-bottom: 36px;
+  }
+  .icones_descricao .slick-list {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .tecnicas .slick-slide:nth-of-type(3) .cada_tecnica {
+    background: #f8822a;
+  }
+  .tecnicas .slick-slide:nth-of-type(4) .cada_tecnica {
+    background: #e87824;
+  }
+  .tecnicas .slick-slide:nth-of-type(5).cada_tecnica {
+    background: #3fd2ec;
+  }
+  .tecnicas .slick-slide:nth-of-type(6) .cada_tecnica {
+    background: #35c9e3;
+  }
+  .tecnicas .slick-slide:nth-of-type(7) .cada_tecnica {
+    background: #1fafc8;
+  }
+  .tecnicas .slick-slide:nth-of-type(8) .cada_tecnica {
+    background: #295d7c;
+  }
+  .tecnicas .slick-slide:nth-of-type(9) .cada_tecnica {
+    background: #184058;
+  }
+  .tecnicas .titulo_tecnicas p {
+    padding: 0 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 24px;
+    /* fallback */
+    max-height: 48px;
+    /* fallback */
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .tecnicas .listagem_tecnicas {
+    margin-top: -80px;
+  }
+  .tecnicas .listagem_tecnicas p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 24px;
+    /* fallback */
+    max-height: 72px;
+    /* fallback */
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  p.subtitulo {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .acompanhamento .container {
+    padding-left: 15px !important;
+  }
+  .acompanhamento .texto_acompanhamento {
+    padding-left: 15px;
+    text-align: center;
+  }
+  .acompanhamento h2 {
+    padding-top: 23px;
+  }
+  .acompanhamento p {
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+  .acompanhamento .saiba_mais {
+    margin: 0 auto;
+  }
+  .novidades .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .novidades h2 {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 22px;
+    padding-top: 45px;
+    text-align: center;
+    padding-left: 0;
+    margin-right: 0;
+  }
+  .novidades input {
+    margin-bottom: 13px;
+    width: 250px;
+    margin-right: 0;
+  }
+  .novidades button {
+    width: 168px;
+    flex-grow: 0 !important;
+    margin-bottom: 35px;
+  }
+  footer .top_footer {
+    line-height: 27px;
+  }
+  footer .top_footer .col-sm-3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  footer .top_footer .menu_roda {
+    display: none !important;
+  }
+  footer .top_footer .responsavel {
+    margin-left: 0;
+  }
+  footer .top_footer .info_footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 35px;
+  }
+  footer .top_footer .localizacao {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .top_footer .localizacao .endereco {
+    text-align: center;
+  }
+  footer .top_footer .telefone {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 26px;
+  }
+  footer .top_footer .sociais {
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+  .effectv2 {
+    width: 333px;
+    height: 306px;
+    top: 22px;
+    left: 35px;
+  }
+  /* Quem Somos */
+  .breadcrumbv2 .fundo_laranja {
+    width: 57.5%;
+  }
+  .paginainterna h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+  .paginainterna p {
+    text-align: center;
+  }
+  .parte .dentro_parte {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .parte .logo_parte {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .cada_missao {
+    padding: 0 45px;
+  }
+  a.alta {
+    text-align: center;
+  }
+  .historia .missao {
+    padding-top: 48px;
+  }
+  .historia .missao .dentro_missao {
+    padding: 35px;
+  }
+  .historia .missao .dentro_missao p {
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .historia .missao .dentro_missao h3 {
+    font-size: 23px;
+  }
+  .historia .slider_historia .slick-slide:nth-child(n+2):nth-child(-n+15) path:first-of-type {
+    opacity: 0;
+  }
+  .historia .slider_historia .slick-slide:nth-child(n+2):nth-child(-n+15) .linhaHover {
+    margin-left: -140px;
+  }
+  .historia .slider_historia .ano-y {
+    top: 45px;
+  }
+  .historia .slider_historia .linhaHover {
+    width: 280px;
+  }
+  .historia .slider_historia .linha:after {
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 2px;
+    width: 176px;
+    height: 121px;
+    background: url(../images/quem_somos/posterior.png) no-repeat;
+    background-size: contain;
+  }
+  .historia .slider_historia .linha:before {
+    content: '';
+    position: absolute;
+    left: -24px;
+    top: 2px;
+    width: 176px;
+    height: 121px;
+    background: url(../images/quem_somos/anterior.png) no-repeat;
+    background-size: contain;
+  }
+  .historia .slider_historia .slick-list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .historia .slider_historia .linha .slick-next {
+    right: -5px;
+    top: 81px;
+  }
+  .historia .slider_historia .linha .slick-prev {
+    left: -9px;
+    top: 81px;
+  }
+  /* Corpo Clinico */
+  .ocorpo .formularios {
+    flex-wrap: wrap;
+  }
+  .ocorpo .formularios input, .ocorpo .formularios .filtro_select {
+    margin-bottom: 10px;
+  }
+  .ocorpo .dentro_medico {
+    flex-wrap: wrap;
+  }
+  .hover_medico {
+    width: 320px;
+  }
+  .hover_medico .fechar {
+    top: 5px;
+  }
+  .hover_medico p {
+    text-align: left;
+  }
+  /* Convenios */
+  .osconvenios p {
+    padding: 0;
+    padding-bottom: 17px;
+  }
+  .osconvenios .cada_convenio {
+    width: 163px;
+  }
+  .osconvenios .cada_convenio .descricao_convenio {
+    left: 0;
+    width: 313px;
+    height: 239px;
+  }
+  .osconvenios .cada_convenio:nth-of-type(4n) .descricao_convenio {
+    left: initial;
+  }
+  .osconvenios .cada_convenio:nth-of-type(2n) .descricao_convenio {
+    left: -161px;
+  }
+  /* duvidas */
+  .titulo_pagina {
+    padding-bottom: 20px;
+    background-size: cover;
+  }
+  .titulo_pagina p {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  a.mais_info {
+    text-align: center;
+    height: 60px;
+  }
+  .panel-title {
+    font-size: 15px;
+  }
+  .aradio h3 {
+    text-align: center;
+  }
+  .depoimentos .mais_duvidas {
+    margin-top: 0;
+  }
+  /* Tecnicas */
+  .conteudo_tratamento .bar_tecnicas {
+    padding-right: 20px;
+  }
+  .conteudo_tratamento .text_tecnicas {
+    text-align: center;
+  }
+  .conteudo_tratamento .text_tecnicas img {
+    float: left;
+    margin-right: 0;
+    margin-left: 9px;
+    margin-bottom: 25px;
+  }
+  .acesse_tambem {
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .as_tecnologias .dentro_tecno {
+    text-align: center;
+  }
+  /* Contato */
+  .contato_page .col-lg-4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contato_page .formularios_contato input {
+    width: 100%;
+  }
+  .contato_page iframe {
+    height: 240px !important;
+  }
+  /* Blog */
+  .listagem_posts h3 {
+    font-size: 42px;
+  }
+  .listagem_posts {
+    text-align: center;
+  }
+  .listagem_posts p {
+    margin-bottom: 22px;
+  }
+  .listagem_posts .footer_post {
+    flex-wrap: wrap;
+  }
+  .listagem_posts .social_blog a {
+    margin-right: 44px;
+  }
+  .listagem_posts .social_blog {
+    margin: 0 auto;
+    margin-top: 14px;
+  }
+  .listagem_posts .saiba_mais {
+    margin: 0 auto;
+  }
+  .listagem_posts .paginacao a {
+    font-size: 15px;
+  }
+  .listagem_posts .paginacao .anterior {
+    margin-right: 20px;
+  }
+  .listagem_posts .paginacao .proximo {
+    margin-left: 20px;
+  }
+  .ultimos_posts h4 {
+    font-size: 23px;
+    text-align: left;
+    padding: 0px 44px;
+  }
+  .ultimos_posts .saiba_mais {
+    margin: 0 44px;
+  }
+  .comentarios {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .comentarios h6 {
+    margin-bottom: 45px;
+  }
+  .cada_comentario {
+    display: block !important;
+  }
+  .cada_comentario .img {
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hamburger {
+    display: block;
+    top: 12px;
+  }
+  .duvidas, .barra_pesquisa {
+    display: none;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .carousel .right_slide {
+    width: 0;
+  }
+  .carousel .left_slide {
+    width: 100%;
+  }
+  .carousel .padding_slide {
+    padding-left: 87px;
+    padding-right: 86px;
+  }
+  .acompanhamento {
+    padding-bottom: 45px;
+  }
+  .acompanhamento .col-lg-6 {
+    text-align: center;
+  }
+  .acompanhamento h2 br {
+    display: none;
+  }
+  .acompanhamento .texto_acompanhamento {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .acompanhamento .container {
+    padding-left: 48px !important;
+    padding-right: 48px;
+  }
+  .acompanhamento .saiba_mais {
+    margin: 0 auto;
+  }
+  .icones_descricao {
+    padding-bottom: 15px;
+  }
+  .icones_descricao .cada_icone {
+    margin-bottom: 35px;
+  }
+  p.subtitulo {
+    padding: 0 !important;
+    padding-bottom: 25px !important;
+  }
+  .tecnicas .titulo_tecnicas p {
+    padding: 0;
+  }
+  .tecnicas .listagem_tecnicas {
+    margin-top: -140px;
+  }
+  .tecnicas .listagem_tecnicas p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 24px;
+    /* fallback */
+    max-height: 72px;
+    /* fallback */
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .ogrupo p {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .lista_depoimentos .slick-list {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .blog .imagem_blog {
+    width: 249px;
+  }
+  .novidades .container {
+    flex-wrap: wrap;
+    padding-bottom: 26px;
+  }
+  .novidades h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 33px;
+    margin-right: 0;
+  }
+  .novidades input {
+    width: 234px;
+  }
+  footer .top_footer .menu_roda {
+    display: none !important;
+  }
+  footer .top_footer .info_footer {
+    flex-wrap: wrap;
+  }
+  footer .top_footer .informacoes {
+    display: flex;
+  }
+  footer .top_footer .localizacao {
+    flex-wrap: wrap;
+  }
+  footer .top_footer .telefone {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  footer .top_footer .endereco {
+    width: 145px;
+  }
+  footer .top_footer .tel {
+    max-height: 30px;
+  }
+  footer .top_footer .sociais {
+    margin-top: -64px;
+  }
+  footer .top_footer .responsavel {
+    margin-left: 0;
+    height: 95px;
+  }
+  .open_menu .hamburger .bars {
+    top: -21px;
+  }
+  .effect {
+    width: 443px;
+    height: 527px;
+    left: 48px;
+  }
+  .effectv2 {
+    width: 418px;
+    height: 473px;
+    top: 22px;
+    left: 121px;
+  }
+  .breadcrumbv2 .fundo_laranja {
+    width: 31.5%;
+  }
+  /* quem somos */
+  .cada_missao {
+    padding: 0 5px;
+  }
+  .cada_missao p {
+    font-size: 11px !important;
+    line-height: 23px !important;
+  }
+  .cada_missao h3 {
+    font-size: 23px !important;
+  }
+  .cada_missao .dentro_missao {
+    padding: 30px !important;
+  }
+  .slider_historia .slick-slide:nth-child(n+3):nth-child(-n+15) path:first-of-type {
+    opacity: 0;
+  }
+  .slider_historia .slick-slide:nth-child(n+3):nth-child(-n+15) .linhaHover {
+    margin-left: -140px;
+  }
+  .slider_historia .linha:after {
+    right: 18px !important;
+  }
+  /* Corpo Clinico */
+  .ocorpo .formularios .filtro_select, .ocorpo .formularios .busca {
+    width: 220px;
+  }
+  .ocorpo .formularios input {
+    padding-left: 14px;
+  }
+  .ocorpo .hover_medico {
+    width: 680px;
+  }
+  /* convenios */
+  .osconvenios .cada_convenio {
+    width: 216px;
+  }
+  .osconvenios .cada_convenio .descricao_convenio {
+    left: 0;
+  }
+  .osconvenios .cada_convenio:nth-of-type(4n) .descricao_convenio {
+    left: 0;
+  }
+  .osconvenios .cada_convenio:nth-of-type(3n) .descricao_convenio {
+    left: -161px;
+  }
+  /* duvidas */
+  .titulo_pagina {
+    padding-bottom: 30px;
+  }
+  .titulo_pagina p {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Tecnicas */
+  .conteudo_tratamento .bar_tecnicas {
+    padding-right: 20px;
+  }
+  .conteudo_tratamento .effectv2 {
+    width: 246px;
+    height: 290px;
+    top: 22px;
+    left: 121px;
+  }
+  .as_tecnologias .dentro_tecno {
+    text-align: center;
+  }
+  /* Contato */
+  .contato_page .col-sm-12 p {
+    margin-bottom: 13px;
+  }
+  .contato_page .col-lg-4:nth-of-type(3) h2 {
+    margin-top: 20px;
+  }
+  .contato_page .formularios_contato input {
+    width: 100%;
+  }
+  .listagem_posts h3 {
+    font-size: 42px;
+  }
+  /* blog */
+  .comentarios {
+    padding-right: 28px;
+  }
+  .comentarios .img {
+    width: 330px;
+  }
+  .ultimos_posts h4 {
+    font-size: 23px;
+  }
+}

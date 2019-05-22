@@ -27,7 +27,10 @@
                     <div class="botoes_direita d-flex align-items-center">
                         <h4>CENTRAL DE ATENDIMENTO: 41 3013 8800</h4>
                         <button class="botao duvidas">Tire suas dúvidas</button>
-                        <div class="sprite pesquisar"></div>
+                        <div class="barra_pesquisa search-wrapper">
+                            <input class="search-input" type="text" placeholder="Pesquisar...">
+                            <div class="sprite pesquisar"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,7 +40,32 @@
                         <a class="logo mr-auto" href="#">
                             <img src="images/assets/logo.svg" alt="Oncoville logo">
                         </a>
-                        <div class="" id="navbarNavDropdown">
+                        <nav class="navigation">
+                            <div class="hamburger">
+                                <span class="bars"></span>
+                            </div>
+                            <div class="mobile_menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Quem Somos</a></li>
+                                <li><a href="#">Produtos</a></li>
+                                <li><a href="#">Onde Comprar</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                            <div class="d-flex justify-content-center">
+                                <div class="midias">
+                                    <div class="icon_social d-flex">
+                                        <a href="#" class="sprite insta"></a>
+                                        <a href="#" class="sprite fb"></a>
+                                        <a href="#" class="sprite tw"></a>
+                                        <a href="#" class="sprite pin"></a>
+                                    </div>
+                                </div>
+                            </div>                       
+                            </div>
+                        </nav>
+                        <div class="d-lg-block d-none" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Quem Somos</a>
@@ -87,7 +115,7 @@
         <section class="conteudo_tratamento paginainterna">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 bar_tecnicas">
+                    <div class="col-lg-4 col-sm-6 bar_tecnicas">
                         <ul>
                             <li class="active"><a href="#">IGRT</a></li>
                             <li><a href="#">IMRT</a></li>
@@ -97,12 +125,15 @@
                             <li><a href="#">Radiocirurgia intraoperatória</a></li>
                             <li><a href="#">Irradiação total do corpo - TBI</a></li>
                             <li><a href="#">Radiocirurgia</a></li>
-
                         </ul>
                     </div>
-                    <div class="col-lg-8 text_tecnicas position-relative">
+                    <div class="col-sm-6 d-lg-none d-sm-block d-none position-relative">
                         <div class="effectv2"></div>
                         <img src="images/tecnicas/tecnica01.jpg" alt="">
+                    </div>
+                    <div class="col-lg-8 text_tecnicas position-relative">
+                        <div class="effectv2 d-lg-block d-sm-none d-block"></div>
+                        <img class="d-lg-block d-sm-none d-block" src="images/tecnicas/tecnica01.jpg" alt="">
                         <h2>IGTR</h2>
                         <p>A Radioterapia Guiada por Imagens (IGRT) surgiu da necessidade de localizar de forma mais precisa o tumor ou os órgãos internos acometidos no instante do tratamento, para que houvesse melhor correlação com as imagens de referência.</p>
                         <p>Dependendo da região a ser irradiada, o tumor necessita de controles mais aprimorados. Por exemplo, quando se trata de tumores prostáticos, em que a próstata pode se movimentar internamente em função das mudanças ﬁsiológicas do reto e da bexiga (que estão intimamente próximos ao órgão), essa movimentação pode ser expressiva entre diferentes frações.</p>

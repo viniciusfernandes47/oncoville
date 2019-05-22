@@ -3,6 +3,7 @@ $('.lista_depoimentos').slick({
     arrows: false,
     infinite: false,
     speed: 300,
+    rows: 0,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -12,7 +13,7 @@ $('.lista_depoimentos').slick({
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: false,
-          dots: false
+          dots: true
         }
       },
       {
@@ -20,7 +21,7 @@ $('.lista_depoimentos').slick({
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: false
+          dots: true
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -46,7 +47,7 @@ $('.lista_depoimentos').slick({
       {
         breakpoint: 1000,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       },
@@ -151,3 +152,49 @@ $('.fechar').click(function(){
     });
   
   })();
+
+  var searchWrapper = document.querySelector('.search-wrapper'),
+searchInput = document.querySelector('.search-input');
+
+document.addEventListener('click', function (e) {
+  if (~e.target.className.indexOf('search')) {
+    searchWrapper.classList.add('focused');
+    searchInput.focus();
+  } else {
+    searchWrapper.classList.remove('focused');
+  }
+});
+
+$(".hamburger").click(function()
+{
+    $(".navigation").toggleClass("open_menu");
+});
+
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+
+  $('li.nav-item a').removeClass('active');
+  $(this).addClass('active');
+  if( target.length ) {
+      
+      event.preventDefault();
+      var top = (target.offset().top) - 140;
+      $('html, body').stop().animate({
+          scrollTop: top
+      }, 1000);
+  }
+});   
+
+
+/* slick na inicial only mobile */
+$('.slick_mobile').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst: true,
+  responsive: [
+        {
+                breakpoint: 768,
+                settings: 'unslick'
+        }
+  ]
+});
