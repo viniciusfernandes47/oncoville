@@ -198,3 +198,5 @@ $('.slick_mobile').slick({
         }
   ]
 });
+
+AOS.init();
