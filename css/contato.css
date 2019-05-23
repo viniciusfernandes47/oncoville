@@ -142,3 +142,12 @@
 .contato_page .anexararquivo {
   margin-top: -12px;
 }
+
+.mapinha {
+  text-decoration: underline;
+}
+
+.mapinha:hover {
+  color: #f0811c;
+  text-decoration: underline;
+}

@@ -200,3 +200,13 @@ $('.slick_mobile').slick({
 });
 
 AOS.init();
+
+const $ano = $('.ano');
+
+$(document).mouseup(function (e) {
+  if (!$ano.is(e.target) // if the target of the click isn't the container...
+  && $ano.has(e.target).length === 0) // ... nor a descendant of the container
+  {
+    $('.linhaHover').hide('slow');
+ }
+});
