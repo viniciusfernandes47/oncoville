@@ -170,6 +170,16 @@ $(".hamburger").click(function()
     $(".navigation").toggleClass("open_menu");
 });
 
+$(".hamburger2").click(function()
+{
+    $(".navigation2").toggleClass("open_menu");
+});
+
+$(".icone_fechar").click(function()
+{
+    $(".navigation2").toggleClass("open_menu");
+});
+
 $('a[href^="#"]').on('click', function(event) {
   var target = $(this.getAttribute('href'));
 

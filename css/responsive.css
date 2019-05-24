@@ -2,11 +2,14 @@
   .hamburger {
     display: block;
   }
+  .hamburger2 {
+    display: block;
+  }
   .duvidas, .barra_pesquisa {
     display: none;
   }
   h2 {
-    font-size: 38px;
+    font-size: 32px;
   }
   img {
     max-width: 100%;
@@ -281,7 +284,10 @@
     opacity: 0;
   }
   .historia .slider_historia .slick-slide:nth-child(n+2):nth-child(-n+15) .linhaHover {
-    margin-left: -140px;
+    position: relative;
+    z-index: 9999999;
+    left: 91%;
+    transform: translateX(-54%);
   }
   .historia .slider_historia .ano-y {
     top: 45px;
@@ -470,12 +476,18 @@
   .cada_comentario .img {
     float: left;
   }
+  .listagem_posts .cada_publica {
+    padding-top: 66px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .hamburger {
     display: block;
     top: 12px;
+  }
+  .hamburger2 {
+    display: block;
   }
   .duvidas, .barra_pesquisa {
     display: none;
