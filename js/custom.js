@@ -180,7 +180,7 @@ $(".icone_fechar").click(function()
     $(".navigation2").toggleClass("open_menu");
 });
 
-$('a[href^="#"]').on('click', function(event) {
+$('header a[href^="#"]').on('click', function(event) {
   var target = $(this.getAttribute('href'));
 
   $('li.nav-item a').removeClass('active');
@@ -220,3 +220,25 @@ $(document).mouseup(function (e) {
     $('.linhaHover').hide('slow');
  }
 });
+
+//Sticky header
+jQuery(function(){
+  createSticky(jQuery("header"));
+});
+
+function createSticky(sticky) {
+  if (typeof sticky != "undefined") {
+
+      var pos = sticky.offset().top ,
+          win = jQuery(window);
+
+      win.on("scroll", function() {
+
+          if( win.scrollTop() > pos ) {
+              sticky.addClass("stickyhead");
+          } else {
+              sticky.removeClass("stickyhead");
+          }           
+      });         
+  }
+}

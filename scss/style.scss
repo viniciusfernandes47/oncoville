@@ -229,6 +229,7 @@ nav li:last-of-type a {
         cursor: pointer;
         background-color: #fff;
         background-clip: padding-box;
+        -webkit-background-clip:padding-box;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         opacity: 1;
@@ -840,8 +841,9 @@ footer {
         }
         .red {
             background-position: -59px -89px;
-            width: 37px;
-            height: 17px;
+            width: 33px;
+            height: 18px;
+            margin-top: -3px;
             margin-left: 15px;
         }
     }
@@ -1328,4 +1330,104 @@ footer {
       }
   }
 
-  
+  /* sticky header */
+  .stickyhead 
+  {
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    top: 0;
+    background: #FFF;
+    z-index: 15;
+    .topo_menor {
+        display: none;
+    }
+    .open_menu .hamburger .bars {
+        top: 22px;
+    }
+  }
+
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 719px;
+        margin: 1.75rem auto;
+    }
+}
+
+.modal-content {
+    padding: 62px 72px;
+    .form_area {
+        flex-wrap: wrap;
+    }
+    .modal-body {
+        padding: 0;
+    }
+    .modal-header {
+        padding: 0;
+        border: 0;
+        h5 {
+            @include bolder;
+            font-size: 38px;
+            line-height: auto;
+            margin-bottom: 12px;
+        }
+    }
+    input {
+        width: 268px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        font-size: 13px;
+        padding-left: 26px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #666666;
+        line-height: 49px;
+        background: #fff;
+        border: 1px solid #999999;
+        border-radius: 0;
+        margin-bottom: 28px;
+    }
+    textarea {
+        width: 100%;
+        position: relative;
+        display: flex;
+        height: 111px;
+        font-size: 13px;
+        padding-left: 26px;
+        padding-top: 15px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #666666;
+        line-height: 49px;
+        background: #fff;
+        border: 1px solid #999999;
+        border-radius: 0;
+    }
+    .form_area button {
+        height: 50px;
+        background: #062639;
+        color: #FFF;
+        border: none;
+        @include bolder;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        margin-top: 39px;
+        width: 100%;
+        &:hover {
+            background: #e87824;
+            color: #FFF;
+        }
+    }
+}
+
+.modal {
+    background: #ffffff5e;
+}

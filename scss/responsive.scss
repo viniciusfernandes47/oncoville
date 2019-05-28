@@ -302,21 +302,34 @@
             }
         }
         .slider_historia {
+            .texto_linha_tempo {
+                background: #FFF;
+                margin-left: 0px;
+                border-radius: 8px;
+                padding-left: 17px;
+                padding-top: 18px;
+                padding-right: 15px;
+                padding-bottom: 9px;
+                font-size: 14px;
+                max-width: 200px;
+            }
             .slick-slide:nth-child(n+2):nth-child(-n+15) path:first-of-type {
                 opacity: 0;
             }
             
             .slick-slide:nth-child(n+2):nth-child(-n+15) .linhaHover {
-                position: relative;
                 z-index: 9999999;
-                left: 91%;
-                transform: translateX(-54%);
+                margin-left: -35px;
+            }
+            .slick-slide:nth-child(4) .linhaHover {
+                left: 110% !important;
             }
             .ano-y {
                 top: 45px;
             }
             .linhaHover {
-                width: 280px;
+                width: 200px;
+                margin-left: -9px;
             }
             .linha:after {
                 content: '';
@@ -370,15 +383,22 @@
     .ocorpo .dentro_medico {
         flex-wrap: wrap;
     }
-    .hover_medico {
-        width: 320px;
-        .fechar {
-            top: 5px;
-        }
-        p {
-            text-align: left;
+    .ocorpo {
+        .hover_medico {
+            width: 320px;
+            .fechar {
+                top: 5px;
+            }
+            h5 {
+                font-size: 15px;
+            }
+            p {
+                text-align: left;
+                font-size: 14px;
+            }
         }
     }
+
 
     /* Convenios */
     .osconvenios p {
@@ -514,6 +534,29 @@
     .listagem_posts .cada_publica {
         padding-top: 66px;
     }
+    .custom-select2-wrapper {
+        .custom-select2-trigger {
+            display: none !important;
+        }
+        select {
+            position: relative;
+            display: flex !important;
+            width: 100%;
+            height: 50px;
+            font-size: 13px;
+            padding-left: 26px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            color: #666666;
+            line-height: 49px;
+            background: #fff;
+            border: 1px solid #999999;
+            border-radius: 0;
+            cursor: pointer;
+            margin-bottom: -23px;
+        }
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -700,7 +743,9 @@
         .slick-slide:nth-child(n+3):nth-child(-n+15) .linhaHover {
             margin-left: -140px;
         }
-        
+        .slick-slide:nth-child(4) .linhaHover {
+            margin-left: -100px;
+        }
         .linha:after {
             right: 18px !important;
         }

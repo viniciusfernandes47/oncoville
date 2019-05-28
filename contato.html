@@ -3,7 +3,7 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
         <meta name="robots" content="noindex"> <!-- Remova em Produção -->
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -125,45 +125,45 @@
                         <p>Paraná | Brasil Clique aqui para <a href="#" class="mapinha">ver no mapa</a></p>
                     </div>
                 </div>
-                <div class="row formularios_contato">
+                <div class="row formularios_contato" data-aos="fade-up">
                     <div class="col-lg-6">
                         <h3 data-aos="fade-up">Entre em contato</h3>
                         <div class="row">
-                            <div class="col-6" data-aos="fade-up">
+                            <div class="col-6">
                                 <input type="text" placeholder="Seu nome">
                             </div>
-                            <div class="col-6" data-aos="fade-down">
+                            <div class="col-6">
                                 <input type="text" placeholder="Seu E-mail">
                             </div>
-                            <div class="col-6" data-aos="fade-up">
-                                <input type="text" placeholder="Seu Telefone">
+                            <div class="col-6">
+                                <input type="number" placeholder="Seu Telefone">
                             </div>
-                            <div class="col-6" data-aos="fade-down">
+                            <div class="col-6">
                                 <input type="text" placeholder="Assunto">
                             </div>
-                            <div class="col-sm-12 mb-lg-0 mb-5" data-aos="fade-up">
+                            <div class="col-sm-12 mb-lg-0 mb-5">
                                 <textarea name="mensagem" placeholder="Sua Mensagem" cols="30" rows="10"></textarea>
                                 <button type="submit">Enviar mensagem</button>
                             </div>
                             
                         </div>
                     </div>
-                    <div class="col-lg-6 trabalhe">
+                    <div class="col-lg-6 trabalhe" data-aos="fade-down">
                         <h3 data-aos="fade-up">Trabalhe Conosco</h3>
                         <div class="row">
-                            <div class="col-6" data-aos="fade-down">
+                            <div class="col-6">
                                 <input type="text" placeholder="Seu nome">
                             </div>
-                            <div class="col-6" data-aos="fade-up">
+                            <div class="col-6">
                                 <input type="text" placeholder="Seu E-mail">
                             </div>
-                            <div class="col-6" data-aos="fade-down">
-                                <input type="text" placeholder="Seu Telefone">
+                            <div class="col-6">
+                                <input type="number" placeholder="Seu Telefone">
                             </div>
-                            <div class="col-6" data-aos="fade-up">
+                            <div class="col-6">
                                 <input type="text" placeholder="Assunto">
                             </div>
-                            <div class="col-sm-12 text-sm-left text-left anexararquivo" data-aos="fade-down">
+                            <div class="col-sm-12 text-sm-left text-left anexararquivo">
                                 <div class="form-group">
                                     <input type="file" name="file" id="file" class="input-file">
                                     <label for="file" class="btn btn-tertiary js-labelFile">
@@ -172,7 +172,7 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-sm-12" data-aos="fade-up">
+                            <div class="col-sm-12">
                                 <textarea name="mensagem" placeholder="Sua Mensagem" cols="30" rows="10"></textarea>
                                 <button type="submit">Enviar mensagem</button>
                             </div>
@@ -229,7 +229,9 @@
             <div class="bottom_footer">
                 <div class="container d-flex">
                     <div class="text_by">Design by</div>
-                    <a href="#" class="sprite red"></a>
+                    <a href="#" class="red">
+                        <img src="images/assets/red.svg" alt="">
+                    </a>
                 </div>
             </div>
         </footer>
