@@ -356,6 +356,9 @@
   }
   .ocorpo .hover_medico {
     width: 320px;
+    max-height: 100%;
+    overflow: scroll;
+    z-index: 99999999;
   }
   .ocorpo .hover_medico .fechar {
     top: 5px;
@@ -515,6 +518,10 @@
     border-radius: 0;
     cursor: pointer;
     margin-bottom: -23px;
+  }
+  .carousel-bullets ul {
+    padding-left: 0;
+    justify-content: center;
   }
 }
 
@@ -699,6 +706,9 @@
   }
   .ocorpo .hover_medico {
     width: 680px;
+    max-height: 100%;
+    z-index: 9999;
+    overflow: scroll;
   }
   /* convenios */
   .osconvenios .cada_convenio {
@@ -756,5 +766,9 @@
   }
   .ultimos_posts h4 {
     font-size: 23px;
+  }
+  .carousel-bullets ul {
+    padding-left: 0;
+    justify-content: center;
   }
 }

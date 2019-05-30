@@ -1610,3 +1610,40 @@ footer .bottom_footer .red {
 .modal {
   background: #ffffff5e;
 }
+
+/* Carosel bolinhas */
+.carousel-bullets ul {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  bottom: 75px;
+  padding-left: 26.3%;
+  z-index: 9999;
+}
+
+.carousel-bullets ul li {
+  background-image: url(../images/assets/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -180px -160px;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.carousel-bullets ul .active {
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/assets/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -193px -157px;
+}

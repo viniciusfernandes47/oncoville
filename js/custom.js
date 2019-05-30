@@ -242,3 +242,17 @@ function createSticky(sticky) {
       });         
   }
 }
+
+$(function() {                      
+  $(".carousel-bullets li").click(function() {  
+    $('.carousel-bullets li').removeClass("active");      
+    $(this).addClass("active");      
+  });
+});
+
+document.addEventListener('touchmove', function(event) {
+  event = event.originalEvent || event;
+  if (event.scale !== 1) {
+     event.preventDefault();
+  }
+}, false);
