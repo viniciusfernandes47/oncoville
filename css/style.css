@@ -1624,7 +1624,7 @@ footer .bottom_footer .red {
   justify-content: left;
   bottom: 75px;
   padding-left: 26.3%;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .carousel-bullets ul li {
